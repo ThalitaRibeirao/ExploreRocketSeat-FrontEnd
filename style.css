@@ -27,7 +27,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.5em;
 
     color: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -170,11 +170,6 @@ a:hover{
         width: 70%;
     }
     
-
-    h1 {
-        font-size: 1.75em;
-    }
-
     /* Menu */
 
     .name-menu-group{
