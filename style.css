@@ -11,9 +11,7 @@ body {
 }
 
 
-
-/* Header */
-.header {
+header {
     padding: 5% 0;
     margin: auto;
 }
