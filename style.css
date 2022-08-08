@@ -28,7 +28,6 @@ h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 1.5em;
-
     color: rgba(0, 0, 0, 0.7);
     width: 100%;
     text-align: center;
@@ -51,13 +50,12 @@ h1 {
 
 
 .name-menu-group {
-    font-family: 'Courier New', monospace;
+    font-family: "Brush Script MT", cursive;
     font-style: normal;
-    font-weight: 900;
-    font-size: 1.2em;
-    letter-spacing: 10px;
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 7px;
     color: #2D2C2A;
-
     width: 100%;
     text-align: center;
     flex: 3;
@@ -70,7 +68,7 @@ h1 {
 }
 
 
-.new-item > div {
+.item-content {
     display: flex;
     margin: 10px;
 }
@@ -121,7 +119,6 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
-
     color: rgba(0, 0, 0, 0.6);
     margin-top: 10px;
 }
@@ -137,12 +134,10 @@ h1 {
     width: 100%;
     border-radius: 20px;
     padding: 10px 5px;
-
     text-align: center;
     font-family: 'Roboto Serif';
     font-weight: 900;
     font-size: 1.25em;
-    
     color: #995000;
     letter-spacing: 1px;
     background-color: #FFF6EA;
