@@ -194,6 +194,9 @@ a:hover{
         font-size: 1.5rem;
     }
     
+    .name-item {
+        flex: 3;
+    }
     .price-item{
         text-align: right;
     }
