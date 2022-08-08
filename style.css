@@ -1,0 +1,217 @@
+/* General */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: #ffedd5;
+    margin: 0 15%;
+}
+
+
+
+/* Header */
+.header {
+    padding: 5% 0;
+    margin: auto;
+}
+
+
+.logo {
+    width: 100%; 
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.menu-group {
+    margin: 3em 0;
+    background-color: #FED7AA;
+    padding: 1em 0;
+}
+
+.menu-group > div {
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+
+
+.name-menu-group {
+    font-family: 'Courier New', monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.2em;
+    letter-spacing: 10px;
+    color: #2D2C2A;
+
+    width: 100%;
+    text-align: center;
+    flex: 3;
+}
+
+
+    /* Itens group */
+.new-item {
+    margin: 50px 0px;
+}
+
+
+.new-item > div {
+    display: flex;
+    margin: 10px;
+}
+
+.img-item {
+    width: 70%;
+    max-width: 150px; 
+    padding-right:25px;
+    margin: auto; 
+}
+
+
+.main-info-item-without-image {
+    display: flex;
+    width: 100%;
+}
+
+.img-item > img , .text-item, .main-info-item{
+    width: 100%;
+}
+
+
+
+.main-info-item-without-image > h2 {
+    width: 100%;
+    display: flex;
+    flex: 3;
+}
+
+
+.name-item, .price-item {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #2D2C2A;
+    flex: 1;
+}
+
+.price-item{
+    text-align: left;
+}
+
+
+
+.desc-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+
+
+.new-item > a {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.order-item{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 5px;
+
+    text-align: center;
+    font-family: 'Roboto Serif';
+    font-weight: 900;
+    font-size: 1.25em;
+    
+    color: #995000;
+    letter-spacing: 1px;
+    background-color: #FFF6EA;
+}
+
+a:hover{
+    transition-delay: 1;
+    color: #FFF6EA;
+    background-color: #995000;
+}
+
+
+
+/*  Desktop Design */
+@media screen and (min-width: 768px) {
+
+    /* General */
+
+    body {
+        margin: 0 30%;
+    }
+
+    /* Header */
+    .header {
+        width: 70%;
+    }
+    
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    /* Menu */
+
+    .name-menu-group{
+        font-size: 1.5em;
+    }
+
+    .new-item {
+        margin: 60px 0px;
+    }
+
+    .img-item {
+        width:40%;
+        max-width: 100px;
+    }
+
+    .main-info-item {
+        display: flex;
+        width: 100%;
+    }
+
+    .name-item, .price-item {
+        font-size: 1.5rem;
+    }
+    
+    .price-item{
+        text-align: right;
+    }
+
+    .desc-item {
+        font-size: 1.25em;
+    }
+
+    .new-item > a {
+       
+        width: 30%;
+
+    }
+
+}
+
